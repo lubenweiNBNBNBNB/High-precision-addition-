@@ -23,7 +23,7 @@ void my_reverse(char bns[])
 	}
 	printf("%s\n", ans);
 }
-int main()
+int main()						//github用VS2019同步真的麻烦，输入提交信息提交了同步才有可能成功
 {
 	char a[100] = {0};
 	char b[100] = {0};
