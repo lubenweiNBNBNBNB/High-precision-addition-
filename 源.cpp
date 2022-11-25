@@ -23,7 +23,6 @@ void my_reverse(char bns[])
 	}
 	printf("%s\n", ans);
 }
-
 int main()
 {
 	char a[100] = {0};
@@ -38,7 +37,6 @@ int main()
 	char mid;
 	for (i = 0; i < 100; i++)
 	{
-
 		if (alen == 0)
 		{
 			A = 0;
@@ -59,10 +57,7 @@ int main()
 				B =  (int)b[blen - 1] - 48;
 				blen--;
 		}
-		sum += A + B;
-		
-		//else
-		//{
+		sum += A + B;				
 			if (sum > 9)
 			{
 				mid = (char)((sum % 10) + 48);
@@ -79,10 +74,7 @@ int main()
 					ans[i] = mid;
 					sum = 0;
 				}			
-			}
-		//}		
-			/*if ()
-			break;*/
+			}	
 	}
 	my_reverse(ans);
 	return 0;
